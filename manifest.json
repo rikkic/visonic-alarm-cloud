@@ -10,5 +10,6 @@
   "integration_type": "device",
   "requirements": ["visonicalarm==3.12.0"],
   "ssdp": [],
-  "zeroconf": []
+  "zeroconf": [],
+  "version": "0.0.1"
 }
