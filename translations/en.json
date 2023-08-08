@@ -1,0 +1,46 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "Device is already configured"
+        },
+        "error": {
+            "cannot_connect": "Failed to connect",
+            "invalid_auth": "Invalid authentication",
+            "unknown": "Unexpected error"
+        },
+        "step": {
+            "user": {
+                "data": {
+                    "codeless_arm": "Allow arming without a code.",
+                    "codeless_disarm": "Allow disarming without a code.",
+                    "email": "Email address",
+                    "host": "Alarm server address",
+                    "master_code": "Master user code",
+                    "panel_id": "Panel ID (Serial)",
+                    "password": "Password",
+                    "update_interval": "Update interval in seconds"
+                },
+                "description": "Initial alarm panel settings, enter as if you would on the app. Master user code is required, but usage for arm/disarm is optional.",
+                "title": "Alarm Panel Settings"
+            }
+        }
+    },
+    "options": {
+        "step": {
+            "user": {
+                "data": {
+                    "codeless_arm": "Allow arming without a code.",
+                    "codeless_disarm": "Allow disarming without a code.",
+                    "email": "Email address",
+                    "host": "Alarm server address",
+                    "master_code": "Master user code",
+                    "panel_id": "Panel ID (Serial)",
+                    "password": "Password",
+                    "update_interval": "Update interval in seconds"
+                },
+                "description": "Initial alarm panel settings, enter as if you would on the app. Master user code is required, but usage for arm/disarm is optional.",
+                "title": "Alarm Panel Settings"
+            }
+        }
+    }
+}

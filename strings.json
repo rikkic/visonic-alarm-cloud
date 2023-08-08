@@ -1,0 +1,46 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "description": "Initial alarm panel settings, enter as if you would on the app. Master user code is required, but usage for arm/disarm is optional.",
+        "title": "Alarm Panel Settings",
+        "data": {
+          "host": "Alarm server address",
+          "email": "Email address",
+          "password": "Password",
+          "panel_id": "Panel ID (Serial)",
+          "master_code": "Master user code",
+          "codeless_disarm": "Allow disarming without a code.",
+          "codeless_arm": "Allow arming without a code.",
+          "update_interval": "Update interval in seconds"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "[%key:common::config_flow::error::cannot_connect%]",
+      "invalid_auth": "[%key:common::config_flow::error::invalid_auth%]",
+      "unknown": "[%key:common::config_flow::error::unknown%]"
+    },
+    "abort": {
+      "already_configured": "[%key:common::config_flow::abort::already_configured_device%]"
+    }
+  },
+  "options": {
+    "step": {
+      "user": {
+        "description": "Initial alarm panel settings, enter as if you would on the app. Master user code is required, but usage for arm/disarm is optional.",
+        "title": "Alarm Panel Settings",
+        "data": {
+          "host": "Alarm server address",
+          "email": "Email address",
+          "password": "Password",
+          "panel_id": "Panel ID (Serial)",
+          "master_code": "Master user code",
+          "codeless_disarm": "Allow disarming without a code.",
+          "codeless_arm": "Allow arming without a code.",
+          "update_interval": "Update interval in seconds"
+        }
+      }
+    }
+  }
+}
